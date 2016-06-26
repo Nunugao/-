@@ -35,7 +35,7 @@
     
     //添加子控制器
     
-    [self setupchildvc:[[MainEssenceViewController alloc] init] title:@"精选" image:@"main_bottom_c_normal" selectedImage:@"main_bottom_essence_press"];
+    [self setupchildvc:[[MainEssenceViewController alloc] init] title:@"精选" image:@"main_bottom_essence_normal" selectedImage:@"main_bottom_essence_press"];
     [self setupchildvc:[[MainNewViewController alloc] init] title:@"新帖" image:@"main_bottom_latest_normal" selectedImage:@"main_bottom_latest_press"];
     [self setupchildvc:[[MainFriendViewController alloc] init] title:@"关注" image:@"main_bottom_news_normal" selectedImage:@"main_bottom_news_press"];
     [self setupchildvc:[[MainMeViewController alloc] init] title:@"我的" image:@"main_bottom_my_normal" selectedImage:@"main_bottom_my_press"];

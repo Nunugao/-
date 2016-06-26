@@ -16,6 +16,7 @@
 		B159905F1D1EDBD0005EAA6B /* MainMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B159905E1D1EDBD0005EAA6B /* MainMeViewController.m */; };
 		B170C4021D1D6B1400F79DC3 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B170C4011D1D6B1400F79DC3 /* MainTabBarController.m */; };
 		B1FE70381D1FA9AD00D13935 /* MainTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FE70371D1FA9AD00D13935 /* MainTabBar.m */; };
+		B1FE703E1D1FC73900D13935 /* UIView+MainExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FE703D1D1FC73900D13935 /* UIView+MainExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,9 @@
 		B170C4011D1D6B1400F79DC3 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
 		B1FE70361D1FA9AD00D13935 /* MainTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBar.h; sourceTree = "<group>"; };
 		B1FE70371D1FA9AD00D13935 /* MainTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBar.m; sourceTree = "<group>"; };
+		B1FE703C1D1FC73900D13935 /* UIView+MainExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MainExtension.h"; sourceTree = "<group>"; };
+		B1FE703D1D1FC73900D13935 /* UIView+MainExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MainExtension.m"; sourceTree = "<group>"; };
+		B1FE703F1D1FC79000D13935 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,9 @@
 				B159905E1D1EDBD0005EAA6B /* MainMeViewController.m */,
 				B1FE70361D1FA9AD00D13935 /* MainTabBar.h */,
 				B1FE70371D1FA9AD00D13935 /* MainTabBar.m */,
+				B1FE703C1D1FC73900D13935 /* UIView+MainExtension.h */,
+				B1FE703D1D1FC73900D13935 /* UIView+MainExtension.m */,
+				B1FE703F1D1FC79000D13935 /* PrefixHeader.pch */,
 				B10937BF1D1A6F3C001446B2 /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -175,6 +182,7 @@
 				B10937C41D1A6F3C001446B2 /* AppDelegate.m in Sources */,
 				B10937C11D1A6F3C001446B2 /* main.m in Sources */,
 				B170C4021D1D6B1400F79DC3 /* MainTabBarController.m in Sources */,
+				B1FE703E1D1FC73900D13935 /* UIView+MainExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +276,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "百思不得姐/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -281,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "百思不得姐/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
