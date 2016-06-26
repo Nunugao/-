@@ -34,9 +34,10 @@
     CGFloat height = self.height;
     
     //设置发布按钮的frame
-    self.publishButton.width = self.publishButton.currentBackgroundImage.size.width;
-    self.publishButton.height = self.publishButton.currentBackgroundImage.size.height;
+//    self.publishButton.width = self.publishButton.currentBackgroundImage.size.width;
+//    self.publishButton.height = self.publishButton.currentBackgroundImage.size.height;
     ;
+    self.publishButton.size = self.publishButton.currentBackgroundImage.size;
     self.publishButton.center = CGPointMake(width *  0.5, height * 0.5);
     //设置其他UITabBarButton的frame
     CGFloat buttonY = 0;
