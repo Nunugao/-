@@ -21,12 +21,7 @@
     self.navigationItem.title = @"我的关注";
     
     //设置导航栏左边的按钮
-    UIButton *leftButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [leftButton setBackgroundImage:[UIImage imageNamed:@"cellFollowDisableIconN_19x18_"] forState:UIControlStateNormal];
-    [leftButton setBackgroundImage:[UIImage imageNamed:@"cellFollowClickIcon_19x20_@1x"] forState:UIControlStateHighlighted];
-    leftButton.size = leftButton.currentBackgroundImage.size;
-    [leftButton addTarget:self action:@selector(friendClick) forControlEvents:UIControlEventTouchUpInside];
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:leftButton];
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"cellFollowDisableIconN_19x18_" highImage:@"cellFollowClickIcon_19x20_@1x"  target:self action:@selector(friendClick)];
 }
 
 - (void)friendClick {
