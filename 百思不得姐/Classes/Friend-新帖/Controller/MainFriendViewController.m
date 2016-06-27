@@ -7,6 +7,7 @@
 //
 
 #import "MainFriendViewController.h"
+#import "MainTestViewController.h"
 
 @interface MainFriendViewController ()
 
@@ -22,9 +23,17 @@
     
     //设置导航栏左边的按钮
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"cellFollowDisableIconN_19x18_" highImage:@"cellFollowClickIcon_19x20_@1x"  target:self action:@selector(friendClick)];
+    self.view.backgroundColor = GlobalRGB;
+    
+    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStyleDone target:nil action:nil];
 }
 
 - (void)friendClick {
     XMGLogFunc;
+}
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    MainTestViewController *vc = [[MainTestViewController alloc] init];
+    vc.view.backgroundColor = XMGRGBColor(100, 200, 100);
+    [self.navigationController pushViewController:vc animated:YES];
 }
 @end

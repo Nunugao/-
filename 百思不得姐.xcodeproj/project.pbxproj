@@ -7,43 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B10937C11D1A6F3C001446B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B10937C01D1A6F3C001446B2 /* main.m */; };
-		B10937C41D1A6F3C001446B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B10937C31D1A6F3C001446B2 /* AppDelegate.m */; };
 		B10937CC1D1A6F3C001446B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10937CB1D1A6F3C001446B2 /* Assets.xcassets */; };
-		B12C09241D21092200D600AC /* UIBarButtonItem+MainExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C09231D21092200D600AC /* UIBarButtonItem+MainExtension.m */; };
-		B15990561D1EDB5E005EAA6B /* MainEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B15990551D1EDB5E005EAA6B /* MainEssenceViewController.m */; };
-		B15990591D1EDBAF005EAA6B /* MainNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B15990581D1EDBAF005EAA6B /* MainNewViewController.m */; };
-		B159905C1D1EDBC6005EAA6B /* MainFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B159905B1D1EDBC6005EAA6B /* MainFriendViewController.m */; };
-		B159905F1D1EDBD0005EAA6B /* MainMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B159905E1D1EDBD0005EAA6B /* MainMeViewController.m */; };
-		B170C4021D1D6B1400F79DC3 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B170C4011D1D6B1400F79DC3 /* MainTabBarController.m */; };
-		B1FE70381D1FA9AD00D13935 /* MainTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FE70371D1FA9AD00D13935 /* MainTabBar.m */; };
-		B1FE703E1D1FC73900D13935 /* UIView+MainExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FE703D1D1FC73900D13935 /* UIView+MainExtension.m */; };
+		B12C094E1D211C7F00D600AC /* MainEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C09291D211C7F00D600AC /* MainEssenceViewController.m */; };
+		B12C094F1D211C7F00D600AC /* MainFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C092F1D211C7F00D600AC /* MainFriendViewController.m */; };
+		B12C09501D211C7F00D600AC /* MainMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C09351D211C7F00D600AC /* MainMeViewController.m */; };
+		B12C09511D211C7F00D600AC /* MainNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C093B1D211C7F00D600AC /* MainNewViewController.m */; };
+		B12C09521D211C7F00D600AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C09401D211C7F00D600AC /* AppDelegate.m */; };
+		B12C09531D211C7F00D600AC /* UIBarButtonItem+MainExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C09431D211C7F00D600AC /* UIBarButtonItem+MainExtension.m */; };
+		B12C09541D211C7F00D600AC /* UIView+MainExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C09451D211C7F00D600AC /* UIView+MainExtension.m */; };
+		B12C09551D211C7F00D600AC /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C09481D211C7F00D600AC /* MainTabBarController.m */; };
+		B12C09561D211C7F00D600AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C09491D211C7F00D600AC /* main.m */; };
+		B12C09571D211C7F00D600AC /* MainTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C094D1D211C7F00D600AC /* MainTabBar.m */; };
+		B12C095A1D212E7100D600AC /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C09591D212E7100D600AC /* MainNavigationController.m */; };
+		B12C095D1D21348E00D600AC /* MainTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C095C1D21348E00D600AC /* MainTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B10937BC1D1A6F3C001446B2 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B10937C01D1A6F3C001446B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B10937C21D1A6F3C001446B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B10937C31D1A6F3C001446B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B10937CB1D1A6F3C001446B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B10937D01D1A6F3C001446B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B12C09221D21092200D600AC /* UIBarButtonItem+MainExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+MainExtension.h"; sourceTree = "<group>"; };
-		B12C09231D21092200D600AC /* UIBarButtonItem+MainExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+MainExtension.m"; sourceTree = "<group>"; };
-		B15990541D1EDB5E005EAA6B /* MainEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainEssenceViewController.h; sourceTree = "<group>"; };
-		B15990551D1EDB5E005EAA6B /* MainEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainEssenceViewController.m; sourceTree = "<group>"; };
-		B15990571D1EDBAF005EAA6B /* MainNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNewViewController.h; sourceTree = "<group>"; };
-		B15990581D1EDBAF005EAA6B /* MainNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNewViewController.m; sourceTree = "<group>"; };
-		B159905A1D1EDBC6005EAA6B /* MainFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainFriendViewController.h; sourceTree = "<group>"; };
-		B159905B1D1EDBC6005EAA6B /* MainFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainFriendViewController.m; sourceTree = "<group>"; };
-		B159905D1D1EDBD0005EAA6B /* MainMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMeViewController.h; sourceTree = "<group>"; };
-		B159905E1D1EDBD0005EAA6B /* MainMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMeViewController.m; sourceTree = "<group>"; };
-		B170C4001D1D6B1400F79DC3 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
-		B170C4011D1D6B1400F79DC3 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
-		B1FE70361D1FA9AD00D13935 /* MainTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBar.h; sourceTree = "<group>"; };
-		B1FE70371D1FA9AD00D13935 /* MainTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBar.m; sourceTree = "<group>"; };
-		B1FE703C1D1FC73900D13935 /* UIView+MainExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MainExtension.h"; sourceTree = "<group>"; };
-		B1FE703D1D1FC73900D13935 /* UIView+MainExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MainExtension.m"; sourceTree = "<group>"; };
-		B1FE703F1D1FC79000D13935 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B12C09281D211C7F00D600AC /* MainEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainEssenceViewController.h; sourceTree = "<group>"; };
+		B12C09291D211C7F00D600AC /* MainEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainEssenceViewController.m; sourceTree = "<group>"; };
+		B12C092E1D211C7F00D600AC /* MainFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainFriendViewController.h; sourceTree = "<group>"; };
+		B12C092F1D211C7F00D600AC /* MainFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainFriendViewController.m; sourceTree = "<group>"; };
+		B12C09341D211C7F00D600AC /* MainMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMeViewController.h; sourceTree = "<group>"; };
+		B12C09351D211C7F00D600AC /* MainMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMeViewController.m; sourceTree = "<group>"; };
+		B12C093A1D211C7F00D600AC /* MainNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNewViewController.h; sourceTree = "<group>"; };
+		B12C093B1D211C7F00D600AC /* MainNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNewViewController.m; sourceTree = "<group>"; };
+		B12C093F1D211C7F00D600AC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B12C09401D211C7F00D600AC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B12C09421D211C7F00D600AC /* UIBarButtonItem+MainExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+MainExtension.h"; sourceTree = "<group>"; };
+		B12C09431D211C7F00D600AC /* UIBarButtonItem+MainExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+MainExtension.m"; sourceTree = "<group>"; };
+		B12C09441D211C7F00D600AC /* UIView+MainExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MainExtension.h"; sourceTree = "<group>"; };
+		B12C09451D211C7F00D600AC /* UIView+MainExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MainExtension.m"; sourceTree = "<group>"; };
+		B12C09471D211C7F00D600AC /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		B12C09481D211C7F00D600AC /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		B12C09491D211C7F00D600AC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B12C094A1D211C7F00D600AC /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B12C094C1D211C7F00D600AC /* MainTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBar.h; sourceTree = "<group>"; };
+		B12C094D1D211C7F00D600AC /* MainTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBar.m; sourceTree = "<group>"; };
+		B12C09581D212E7100D600AC /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		B12C09591D212E7100D600AC /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		B12C095B1D21348E00D600AC /* MainTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTestViewController.h; sourceTree = "<group>"; };
+		B12C095C1D21348E00D600AC /* MainTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,25 +82,7 @@
 		B10937BE1D1A6F3C001446B2 /* 百思不得姐 */ = {
 			isa = PBXGroup;
 			children = (
-				B10937C21D1A6F3C001446B2 /* AppDelegate.h */,
-				B10937C31D1A6F3C001446B2 /* AppDelegate.m */,
-				B170C4001D1D6B1400F79DC3 /* MainTabBarController.h */,
-				B170C4011D1D6B1400F79DC3 /* MainTabBarController.m */,
-				B15990541D1EDB5E005EAA6B /* MainEssenceViewController.h */,
-				B15990551D1EDB5E005EAA6B /* MainEssenceViewController.m */,
-				B15990571D1EDBAF005EAA6B /* MainNewViewController.h */,
-				B15990581D1EDBAF005EAA6B /* MainNewViewController.m */,
-				B159905A1D1EDBC6005EAA6B /* MainFriendViewController.h */,
-				B159905B1D1EDBC6005EAA6B /* MainFriendViewController.m */,
-				B159905D1D1EDBD0005EAA6B /* MainMeViewController.h */,
-				B159905E1D1EDBD0005EAA6B /* MainMeViewController.m */,
-				B1FE70361D1FA9AD00D13935 /* MainTabBar.h */,
-				B1FE70371D1FA9AD00D13935 /* MainTabBar.m */,
-				B1FE703C1D1FC73900D13935 /* UIView+MainExtension.h */,
-				B1FE703D1D1FC73900D13935 /* UIView+MainExtension.m */,
-				B1FE703F1D1FC79000D13935 /* PrefixHeader.pch */,
-				B12C09221D21092200D600AC /* UIBarButtonItem+MainExtension.h */,
-				B12C09231D21092200D600AC /* UIBarButtonItem+MainExtension.m */,
+				B12C09251D211C7F00D600AC /* Classes */,
 				B10937BF1D1A6F3C001446B2 /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -105,9 +93,199 @@
 			children = (
 				B10937CB1D1A6F3C001446B2 /* Assets.xcassets */,
 				B10937D01D1A6F3C001446B2 /* Info.plist */,
-				B10937C01D1A6F3C001446B2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B12C09251D211C7F00D600AC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B12C09261D211C7F00D600AC /* Essence-精华 */,
+				B12C092C1D211C7F00D600AC /* Friend-新帖 */,
+				B12C09321D211C7F00D600AC /* Me-我的 */,
+				B12C09381D211C7F00D600AC /* New-新帖 */,
+				B12C093E1D211C7F00D600AC /* Other-其他 */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B12C09261D211C7F00D600AC /* Essence-精华 */ = {
+			isa = PBXGroup;
+			children = (
+				B12C09271D211C7F00D600AC /* Controller */,
+				B12C092A1D211C7F00D600AC /* Model */,
+				B12C092B1D211C7F00D600AC /* View */,
+			);
+			path = "Essence-精华";
+			sourceTree = "<group>";
+		};
+		B12C09271D211C7F00D600AC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B12C09281D211C7F00D600AC /* MainEssenceViewController.h */,
+				B12C09291D211C7F00D600AC /* MainEssenceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B12C092A1D211C7F00D600AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B12C092B1D211C7F00D600AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B12C092C1D211C7F00D600AC /* Friend-新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				B12C092D1D211C7F00D600AC /* Controller */,
+				B12C09301D211C7F00D600AC /* Model */,
+				B12C09311D211C7F00D600AC /* View */,
+			);
+			path = "Friend-新帖";
+			sourceTree = "<group>";
+		};
+		B12C092D1D211C7F00D600AC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B12C092E1D211C7F00D600AC /* MainFriendViewController.h */,
+				B12C092F1D211C7F00D600AC /* MainFriendViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B12C09301D211C7F00D600AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B12C09311D211C7F00D600AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B12C09321D211C7F00D600AC /* Me-我的 */ = {
+			isa = PBXGroup;
+			children = (
+				B12C09331D211C7F00D600AC /* Controller */,
+				B12C09361D211C7F00D600AC /* Model */,
+				B12C09371D211C7F00D600AC /* View */,
+			);
+			path = "Me-我的";
+			sourceTree = "<group>";
+		};
+		B12C09331D211C7F00D600AC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B12C09341D211C7F00D600AC /* MainMeViewController.h */,
+				B12C09351D211C7F00D600AC /* MainMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B12C09361D211C7F00D600AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B12C09371D211C7F00D600AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B12C09381D211C7F00D600AC /* New-新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				B12C09391D211C7F00D600AC /* Controller */,
+				B12C093C1D211C7F00D600AC /* Model */,
+				B12C093D1D211C7F00D600AC /* View */,
+			);
+			path = "New-新帖";
+			sourceTree = "<group>";
+		};
+		B12C09391D211C7F00D600AC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B12C093A1D211C7F00D600AC /* MainNewViewController.h */,
+				B12C093B1D211C7F00D600AC /* MainNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B12C093C1D211C7F00D600AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B12C093D1D211C7F00D600AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B12C093E1D211C7F00D600AC /* Other-其他 */ = {
+			isa = PBXGroup;
+			children = (
+				B12C093F1D211C7F00D600AC /* AppDelegate.h */,
+				B12C09401D211C7F00D600AC /* AppDelegate.m */,
+				B12C09411D211C7F00D600AC /* Category */,
+				B12C09461D211C7F00D600AC /* Controller */,
+				B12C09491D211C7F00D600AC /* main.m */,
+				B12C094A1D211C7F00D600AC /* PrefixHeader.pch */,
+				B12C095B1D21348E00D600AC /* MainTestViewController.h */,
+				B12C095C1D21348E00D600AC /* MainTestViewController.m */,
+				B12C094B1D211C7F00D600AC /* View */,
+			);
+			path = "Other-其他";
+			sourceTree = "<group>";
+		};
+		B12C09411D211C7F00D600AC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B12C09421D211C7F00D600AC /* UIBarButtonItem+MainExtension.h */,
+				B12C09431D211C7F00D600AC /* UIBarButtonItem+MainExtension.m */,
+				B12C09441D211C7F00D600AC /* UIView+MainExtension.h */,
+				B12C09451D211C7F00D600AC /* UIView+MainExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B12C09461D211C7F00D600AC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B12C09471D211C7F00D600AC /* MainTabBarController.h */,
+				B12C09481D211C7F00D600AC /* MainTabBarController.m */,
+				B12C09581D212E7100D600AC /* MainNavigationController.h */,
+				B12C09591D212E7100D600AC /* MainNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B12C094B1D211C7F00D600AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B12C094C1D211C7F00D600AC /* MainTabBar.h */,
+				B12C094D1D211C7F00D600AC /* MainTabBar.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,16 +357,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1FE70381D1FA9AD00D13935 /* MainTabBar.m in Sources */,
-				B159905F1D1EDBD0005EAA6B /* MainMeViewController.m in Sources */,
-				B15990561D1EDB5E005EAA6B /* MainEssenceViewController.m in Sources */,
-				B159905C1D1EDBC6005EAA6B /* MainFriendViewController.m in Sources */,
-				B15990591D1EDBAF005EAA6B /* MainNewViewController.m in Sources */,
-				B10937C41D1A6F3C001446B2 /* AppDelegate.m in Sources */,
-				B10937C11D1A6F3C001446B2 /* main.m in Sources */,
-				B170C4021D1D6B1400F79DC3 /* MainTabBarController.m in Sources */,
-				B1FE703E1D1FC73900D13935 /* UIView+MainExtension.m in Sources */,
-				B12C09241D21092200D600AC /* UIBarButtonItem+MainExtension.m in Sources */,
+				B12C09561D211C7F00D600AC /* main.m in Sources */,
+				B12C094E1D211C7F00D600AC /* MainEssenceViewController.m in Sources */,
+				B12C09511D211C7F00D600AC /* MainNewViewController.m in Sources */,
+				B12C095D1D21348E00D600AC /* MainTestViewController.m in Sources */,
+				B12C09551D211C7F00D600AC /* MainTabBarController.m in Sources */,
+				B12C09521D211C7F00D600AC /* AppDelegate.m in Sources */,
+				B12C09531D211C7F00D600AC /* UIBarButtonItem+MainExtension.m in Sources */,
+				B12C09571D211C7F00D600AC /* MainTabBar.m in Sources */,
+				B12C094F1D211C7F00D600AC /* MainFriendViewController.m in Sources */,
+				B12C095A1D212E7100D600AC /* MainNavigationController.m in Sources */,
+				B12C09501D211C7F00D600AC /* MainMeViewController.m in Sources */,
+				B12C09541D211C7F00D600AC /* UIView+MainExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				GCC_PREFIX_HEADER = "百思不得姐/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "百思不得姐/Classes/Other-其他/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -296,7 +476,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				GCC_PREFIX_HEADER = "百思不得姐/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "百思不得姐/Classes/Other-其他/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
