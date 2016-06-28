@@ -20,8 +20,8 @@
 
 @implementation MainTabBarController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
++ (void)initialize {
+    
     //通过appearance统一设置UITabBarItem的文字属性
     NSMutableDictionary *atts = [NSMutableDictionary dictionary];
     atts[NSFontAttributeName] =[UIFont systemFontOfSize:12];
@@ -33,6 +33,11 @@
     UITabBarItem *item = [UITabBarItem appearance];
     [item setTitleTextAttributes:atts forState:UIControlStateNormal];
     [item setTitleTextAttributes:selectedAtts forState:UIControlStateSelected];
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
     
     //添加子控制器
     
@@ -57,8 +62,7 @@
     
     //包装一个导航控制器, 添加导航控制器为tabBarController的子控制器
     MainNavigationController *nav = [[MainNavigationController alloc] initWithRootViewController:vc];
-    //设置导航栏背景图
-//    [nav.navigationBar setBackgroundImage:[UIImage imageNamed:nil] forBarMetrics:UIBarMetricsDefault];
+    
     [self addChildViewController:nav];
 }
 

@@ -7,7 +7,6 @@
 //
 
 #import "MainFriendViewController.h"
-#import "MainTestViewController.h"
 
 @interface MainFriendViewController ()
 
@@ -31,9 +30,5 @@
 - (void)friendClick {
     XMGLogFunc;
 }
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    MainTestViewController *vc = [[MainTestViewController alloc] init];
-    vc.view.backgroundColor = XMGRGBColor(100, 200, 100);
-    [self.navigationController pushViewController:vc animated:YES];
-}
+
 @end

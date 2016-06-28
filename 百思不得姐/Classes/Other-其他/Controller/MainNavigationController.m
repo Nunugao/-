@@ -13,10 +13,20 @@
 @end
 
 @implementation MainNavigationController
+/**
+ * 当第一次使用这个类的时候会调用一次
+ */
++ (void)initialize {
+    //当导航栏用在MainNavigationController中, apparance设置才会生效
+    UINavigationBar *bar = [UINavigationBar appearance];
+    [bar setBackgroundImage:nil forBarMetrics:UIBarMetricsDefault];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //设置导航栏背景图
+    //    [nav.navigationBar setBackgroundImage:[UIImage imageNamed:nil] forBarMetrics:UIBarMetricsDefault];
 
 }
 /**

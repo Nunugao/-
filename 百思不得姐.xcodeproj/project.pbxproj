@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B10937CC1D1A6F3C001446B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10937CB1D1A6F3C001446B2 /* Assets.xcassets */; };
+		B10B12831D2285930064E020 /* MainFriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B10B12821D2285930064E020 /* MainFriendViewController.xib */; };
 		B12C094E1D211C7F00D600AC /* MainEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C09291D211C7F00D600AC /* MainEssenceViewController.m */; };
 		B12C094F1D211C7F00D600AC /* MainFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C092F1D211C7F00D600AC /* MainFriendViewController.m */; };
 		B12C09501D211C7F00D600AC /* MainMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C09351D211C7F00D600AC /* MainMeViewController.m */; };
@@ -19,13 +20,13 @@
 		B12C09561D211C7F00D600AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C09491D211C7F00D600AC /* main.m */; };
 		B12C09571D211C7F00D600AC /* MainTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C094D1D211C7F00D600AC /* MainTabBar.m */; };
 		B12C095A1D212E7100D600AC /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C09591D212E7100D600AC /* MainNavigationController.m */; };
-		B12C095D1D21348E00D600AC /* MainTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C095C1D21348E00D600AC /* MainTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B10937BC1D1A6F3C001446B2 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B10937CB1D1A6F3C001446B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B10937D01D1A6F3C001446B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10B12821D2285930064E020 /* MainFriendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainFriendViewController.xib; sourceTree = "<group>"; };
 		B12C09281D211C7F00D600AC /* MainEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainEssenceViewController.h; sourceTree = "<group>"; };
 		B12C09291D211C7F00D600AC /* MainEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainEssenceViewController.m; sourceTree = "<group>"; };
 		B12C092E1D211C7F00D600AC /* MainFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainFriendViewController.h; sourceTree = "<group>"; };
@@ -48,8 +49,6 @@
 		B12C094D1D211C7F00D600AC /* MainTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBar.m; sourceTree = "<group>"; };
 		B12C09581D212E7100D600AC /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
 		B12C09591D212E7100D600AC /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
-		B12C095B1D21348E00D600AC /* MainTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTestViewController.h; sourceTree = "<group>"; };
-		B12C095C1D21348E00D600AC /* MainTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				B12C09261D211C7F00D600AC /* Essence-精华 */,
-				B12C092C1D211C7F00D600AC /* Friend-新帖 */,
+				B12C092C1D211C7F00D600AC /* Friend-关注 */,
 				B12C09321D211C7F00D600AC /* Me-我的 */,
 				B12C09381D211C7F00D600AC /* New-新帖 */,
 				B12C093E1D211C7F00D600AC /* Other-其他 */,
@@ -142,13 +141,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		B12C092C1D211C7F00D600AC /* Friend-新帖 */ = {
+		B12C092C1D211C7F00D600AC /* Friend-关注 */ = {
 			isa = PBXGroup;
 			children = (
 				B12C092D1D211C7F00D600AC /* Controller */,
 				B12C09301D211C7F00D600AC /* Model */,
 				B12C09311D211C7F00D600AC /* View */,
 			);
+			name = "Friend-关注";
 			path = "Friend-新帖";
 			sourceTree = "<group>";
 		};
@@ -157,6 +157,7 @@
 			children = (
 				B12C092E1D211C7F00D600AC /* MainFriendViewController.h */,
 				B12C092F1D211C7F00D600AC /* MainFriendViewController.m */,
+				B10B12821D2285930064E020 /* MainFriendViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -250,8 +251,6 @@
 				B12C09461D211C7F00D600AC /* Controller */,
 				B12C09491D211C7F00D600AC /* main.m */,
 				B12C094A1D211C7F00D600AC /* PrefixHeader.pch */,
-				B12C095B1D21348E00D600AC /* MainTestViewController.h */,
-				B12C095C1D21348E00D600AC /* MainTestViewController.m */,
 				B12C094B1D211C7F00D600AC /* View */,
 			);
 			path = "Other-其他";
@@ -347,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B10937CC1D1A6F3C001446B2 /* Assets.xcassets in Resources */,
+				B10B12831D2285930064E020 /* MainFriendViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +360,6 @@
 				B12C09561D211C7F00D600AC /* main.m in Sources */,
 				B12C094E1D211C7F00D600AC /* MainEssenceViewController.m in Sources */,
 				B12C09511D211C7F00D600AC /* MainNewViewController.m in Sources */,
-				B12C095D1D21348E00D600AC /* MainTestViewController.m in Sources */,
 				B12C09551D211C7F00D600AC /* MainTabBarController.m in Sources */,
 				B12C09521D211C7F00D600AC /* AppDelegate.m in Sources */,
 				B12C09531D211C7F00D600AC /* UIBarButtonItem+MainExtension.m in Sources */,
